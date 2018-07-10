@@ -1,0 +1,55 @@
+.WeatherSearch
+	background-color #ff5733
+	height 200px
+	position relative
+	&-container
+		max-width 1000px
+		width 100%
+		position absolute
+		top 50%
+		left 50%
+		transform translate(-50%, -50%)
+		display flex
+		align-items center
+		&__input
+			flex 1
+			padding 0 15px
+			line-height 45px
+			font-weight 500
+			font-size 20px
+			border-radius 5px
+			border 1px solid #000
+			transition 0.1s
+			&:focus, &:active
+				&::-webkit-input-placeholder {color:transparent;}
+				&::-moz-placeholder          {color:transparent;}
+				&:-moz-placeholder           {color:transparent;}
+				&:-ms-input-placeholder      {color:transparent;}
+		&__btn
+			position absolute
+			right 15px
+			top 50%
+			transform translateY(-50%)
+			cursor pointer
+			width 20px
+			height 20px
+			background url(../../assets/WeatherSearch/search.svg) no-repeat center
+		&__geolocation
+			cursor pointer
+			flex 0 47px
+			height 47px
+			background #fff url(../../assets/WeatherSearch/gps.svg) no-repeat center
+			background-size 70% 70%
+			border 1px solid black
+			border-radius 100px
+			margin-right 30px
+			transition 0.1s
+	&-current-location
+		.WeatherSearch
+			&-container
+				&__input
+					background #c4c4c4
+				&__btn, &__input
+					pointer-events none
+				&__geolocation
+					background-color #ffc300

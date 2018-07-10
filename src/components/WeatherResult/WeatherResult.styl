@@ -1,0 +1,37 @@
+.WeatherResult
+	padding 76px 20px
+	min-height calc(100vh - 200px)
+	background-color #ffc300
+	&-container
+		max-width 1000px
+		width 100%
+		margin 0 auto
+		display flex
+		flex-direction column
+		align-items center
+		justify-content flex-start
+		&__place, &__degrees
+			font-size 30px
+			font-weight 700
+			margin-bottom 10px
+			text-align center
+		&__degrees 
+			margin-bottom 30px
+	&-table
+		max-width 600px
+		width 100%
+		&__row
+			display flex
+			justify-content space-between
+			border-bottom 1px dashed #000
+		&__col
+			line-height 46px
+			font-size 20px
+			font-weight 400
+			&:last-child
+				font-weight 700
+	&-error
+		text-align center
+		padding-top 30px
+		font-size 30px
+		font-weight 700
