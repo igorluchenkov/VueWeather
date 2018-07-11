@@ -1,5 +1,5 @@
 export const state = {
-	googleApiKey: 'google api key w/ enabled Maps, People, Places Api',
+	googleApiKey: 'google api key w/ enabled Maps, Places, People Api',
 	weatherApiKey: 'http://openweathermap.org/ api key',
 	currentWeatherData: {
 		placeName: '',
