@@ -1,7 +1,7 @@
 import WeatherSearch from '../WeatherSearch/WeatherSearch.vue';
 import WeatherResult from '../WeatherResult/WeatherResult.vue';
 import store from '@/store';
-import { getWeatherData, toggleGeoMode } from '@/api.js';
+import { getWeatherData, toggleGeoMode } from '@/App.js';
 import { mountGoogleApi } from '@/helpers.js';
 import Cookie from 'js-cookie';
 

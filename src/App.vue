@@ -2,8 +2,5 @@
   <router-view></router-view>
 </template>
 
-<script>
-export default {
-  name: 'App',
-}
-</script>
+<script src='./App.js'></script>
+<style src='./App.styl' lang="stylus"></style>

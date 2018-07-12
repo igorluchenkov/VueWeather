@@ -1,4 +1,4 @@
-import { getWeatherData, toggleGeoMode } from '@/api.js';
+import { getWeatherData, toggleGeoMode } from '@/App.js';
 import store from '@/store';
 
 export default {
